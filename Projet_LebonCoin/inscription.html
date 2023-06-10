@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="inscription.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <title>IEF shop-Inscription</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm">
+    <div class="container" style="font-size: 30px"><a class="nav-brand" href="acceuil.html">IEF shop</a></div>
+  </nav>
+  <div class="formCo">
+    <form name="inscription" action="inscription.php" method="post">
+      <h1>S'inscrire</h1>
+      <div class="social">
+        <p><i class="fab fa-instagram"></i></p>
+        <p><i class="fab fa-facebook-square"></i></p>
+        <p><i class="fab fa-twitter-square"></i></p>
+        <p><i class="fab fa-youtube"></i></p>
+      </div>
+
+      <p class="choose-email">ou:</p>
+
+      <div class="inputs">
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span><input type="text"
+            name="nom" placeholder="Nom"></div>
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span><input type="text"
+            name="prenom" placeholder="Prenom"></div>
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span><input type="email"
+            name="emial" placeholder="Adresse e-mail"></div>
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span><input type="email"
+            name="confirmmail" placeholder="Confirmer adresse e-mail"></div>
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span><input
+            type="password" name="mdp" placeholder="Mot de passe"></div>
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span><input
+            type="password" name="confirmmdp" placeholder="Comfirmer mot de passe"></div>
+        <div style="margin: auto 0%; display: inline-flex;"><span style="font-size: 9px;">* </span>
+          <select name="genre" id="select-genre">
+            <option value="">--Ton genre--</option>
+            <option value="man">Homme</option>
+            <option value="woman">Femme</option>
+          </select></div>
+        <div style=" margin: 15px 10% auto 1%;"><input type="tel" placeholder="Numéro de téléphone"></div>
+      </div>
+      <p style="font-size: 10px"> * : obligatoire</p>
+
+      <p class="inscription"> Déjà un compte ? <span><a href="connexion.php"> Connecte toi</a></span> </p>
+
+      <div style="text-align: center;">
+        <button class="connexion" type="submit" name="inscrire" class="return" href="acceuil.html">s'inscrire</button>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
+</html>

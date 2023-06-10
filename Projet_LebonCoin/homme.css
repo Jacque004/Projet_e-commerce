@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+body{
+	font-family: 'Dela Gothic One', cursive;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	color: white;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: grey;
+	position: sticky;
+	top:0;
+}
+
+nav{
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+nav{
+
+	list-style-type: none;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: red;
+	transition: 0.3s all;
+}
+nav h1{
+	max-width: 200px;
+	font-size: 17px;
+}
+
+nav .onglets{
+	display: flex;
+	flex-wrap: wrap;
+}
+nav .onglets p{
+	font-size: 17px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+nav .onglets input{
+	margin: 8px 20px;
+	padding: 10px;
+	border-radius: 20px;
+	outline: none;
+	background-color: #f2f2f2;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+header h1{
+	font-size: 50px;
+	text-align: center;
+}
+header button{
+	padding: 15px 20px;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+}
+
+.main{
+	margin: 20px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.main .cards .card1:hover{
+	transition: 0.3s;
+	color: red;
+}
+.cards .card1{
+	margin-right: 35px;
+	cursor: pointer;
+}
+.cards .card1 img{
+	width: 450px;
+}
+.cards .card1 .card-header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+
+
+footer{
+	padding: 30px;
+	margin-top: 100px;
+	background-color: grey;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+footer .social-media{
+	display: flex;
+}
+footer .social-media{
+	margin-right: 55px;
+	text-align: center;
+	cursor: pointer;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	color: red;
+	transition: 0.3s all;
+}
+
+#barre{
+	height: 10px;
+	border-radius: 0px 50px 0px;
+	position: fixed;
+	bottom: 0;
+	background: linear-gradient(to right, #f12711, #f5af19 );
+}
